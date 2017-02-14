@@ -17,7 +17,7 @@ wget https://api.uwaterloo.ca/v2/awards/undergraduate.json?key=4abfd4892a60a729f
 
 from uwaterlooapi import UWaterlooAPI
 uw = UWaterlooAPI(api_key="4abfd4892a60a729f6c2225466121a44")
-uw.current_weather()
+dir(uw)
 '''
 
 
@@ -26,9 +26,9 @@ from datetime import datetime
 
 
 # Personal information
-year = "Year Three"
-prog = "Computer Science"
-citizenship = "Canadian citizen/Permanent resident"
+year = # "Year One", "Year Two", "Year Three", "Year Four"
+prog = # "Computer Science", "Mathematics", ...
+citizenship = # "Canadian citizen/Permanent resident", "international/study permit student"
 
 
 
